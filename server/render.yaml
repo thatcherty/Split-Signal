@@ -1,22 +1,18 @@
 services:
-  server:
-    build:
-      context: .
-      dockerfile: GameServer/Dockerfile
-    ports:
-      - "32769:8080"
-    environment:
-      - MongoDB__ConnectionString=mongodb://mongodb:27017
-      - MongoDB__DatabaseName=SplitSignal
-    depends_on:
-      - mongodb
+  - type: web
+    name: split-signal-server
+    runtime: docker
+    plan: free
 
-  mongodb:
-    image: mongo:8
-    ports:
-      - "27017:27017"
-    volumes:
-      - mongodb_data:/data/db
+    dockerfilePath: ./GameServer/Dockerfile
+    dockerContext: .
 
-volumes:
-  mongodb_data:
+    envVars:
+      - key: ASPNETCORE_URLS
+        value: http://0.0.0.0:8080
+
+      - key: MongoDB__ConnectionString
+        sync: false
+
+      - key: MongoDB__DatabaseName
+        value: SplitSignal
