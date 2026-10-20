@@ -4,7 +4,7 @@ services:
     runtime: docker
     plan: free
 
-    dockerfilePath: ./server/GameServer/GameServer
+    dockerfilePath: ./server/GameServer/GameServer/Dockerfile
     dockerContext: ./server/GameServer
 
     envVars:
