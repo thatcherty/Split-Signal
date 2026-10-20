@@ -4,8 +4,8 @@ services:
     runtime: docker
     plan: free
 
-    dockerfilePath: ./GameServer/
-    dockerContext: ./server/GameServer
+    dockerfilePath: ./GameServer/GameServer/
+    dockerContext: ./server
 
     envVars:
       - key: ASPNETCORE_URLS
