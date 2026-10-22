@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ryeki\\Development\\CSCE A401\\SplitSignal\\server\\GameServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|c:\\users\\ryeki\\development\\csce a401\\splitsignal\\server\\gameserver\\gameserver\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|c:\\users\\ryeki\\development\\csce a401\\splitsignal\\server\\gameserver\\gameserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|c:\\users\\ryeki\\development\\csce a401\\splitsignal\\server\\gameserver\\gameserver\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|c:\\users\\ryeki\\development\\csce a401\\splitsignal\\server\\gameserver\\gameserver\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|c:\\users\\ryeki\\development\\csce a401\\splitsignal\\server\\gameserver\\gameserver\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|c:\\users\\ryeki\\development\\csce a401\\splitsignal\\server\\gameserver\\gameserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|c:\\users\\ryeki\\development\\csce a401\\splitsignal\\server\\gameserver\\gameserver\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CB1D2F4-457E-DC9A-2B1C-5000C4602A0C}|GameServer\\GameServer.csproj|solutionrelative:gameserver\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Request.cs",
               "DocumentMoniker": "C:\\Users\\ryeki\\Development\\CSCE A401\\SplitSignal\\server\\GameServer\\GameServer\\Request.cs",
               "RelativeDocumentMoniker": "GameServer\\Request.cs",
@@ -48,13 +48,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "GameHub.cs",
               "DocumentMoniker": "C:\\Users\\ryeki\\Development\\CSCE A401\\SplitSignal\\server\\GameServer\\GameServer\\GameHub.cs",
               "RelativeDocumentMoniker": "GameServer\\GameHub.cs",
               "ToolTip": "C:\\Users\\ryeki\\Development\\CSCE A401\\SplitSignal\\server\\GameServer\\GameServer\\GameHub.cs",
               "RelativeToolTip": "GameServer\\GameHub.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-22T04:58:30.269Z",
               "IsPinned": true,
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "GameController.cs",
               "DocumentMoniker": "C:\\Users\\ryeki\\Development\\CSCE A401\\SplitSignal\\server\\GameServer\\GameServer\\Controllers\\GameController.cs",
               "RelativeDocumentMoniker": "GameServer\\Controllers\\GameController.cs",
@@ -75,31 +75,31 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameState.cs",
-              "DocumentMoniker": "C:\\Users\\ryeki\\Development\\CSCE A401\\SplitSignal\\server\\GameServer\\GameServer\\GameState.cs",
-              "RelativeDocumentMoniker": "GameServer\\GameState.cs",
-              "ToolTip": "C:\\Users\\ryeki\\Development\\CSCE A401\\SplitSignal\\server\\GameServer\\GameServer\\GameState.cs",
-              "RelativeToolTip": "GameServer\\GameState.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAkwBwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T08:18:31.214Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\Users\\ryeki\\Development\\CSCE A401\\SplitSignal\\server\\GameServer\\GameServer\\GameState.cs",
+              "RelativeDocumentMoniker": "GameServer\\GameState.cs",
+              "ToolTip": "C:\\Users\\ryeki\\Development\\CSCE A401\\SplitSignal\\server\\GameServer\\GameServer\\GameState.cs",
+              "RelativeToolTip": "GameServer\\GameState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T08:18:31.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ryeki\\Development\\CSCE A401\\SplitSignal\\server\\GameServer\\GameServer\\Program.cs",
               "RelativeDocumentMoniker": "GameServer\\Program.cs",
-              "ToolTip": "C:\\Users\\ryeki\\Development\\CSCE A401\\SplitSignal\\server\\GameServer\\GameServer\\Program.cs*",
-              "RelativeToolTip": "GameServer\\Program.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAACAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ryeki\\Development\\CSCE A401\\SplitSignal\\server\\GameServer\\GameServer\\Program.cs",
+              "RelativeToolTip": "GameServer\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T08:19:05.295Z",
               "EditorCaption": ""
